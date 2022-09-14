@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hw2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bench-blocked::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bench-blocked-Release-b46b0cc1c15b94f25324.json",
+					"name" : "bench-blocked",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark-Release-d76463fde286d9ab7320.json",
+					"name" : "benchmark",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark-basic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark-basic-Release-b7f6806ff51a26207aff.json",
+					"name" : "benchmark-basic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark-blas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark-blas-Release-3dcb08151046bebc042e.json",
+					"name" : "benchmark-blas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark-blocked::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark-blocked-Release-cdbb0e1cb1651f7b79fb.json",
+					"name" : "benchmark-blocked",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jpl-st-spring2021/Downloads/HW2/mmul-harness-instructional/build",
+		"source" : "/Users/jpl-st-spring2021/Downloads/HW2/mmul-harness-instructional"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

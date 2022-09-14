@@ -7,4 +7,18 @@ const char* dgemm_desc = "Blocked dgemm.";
 void square_dgemm_blocked(int n, int block_size, double* A, double* B, double* C) 
 {
    // insert your code here
+   
+   for(int x = 0; x<n; x += block_size){
+   	for(int y = 0; y<n; y += block_size){
+   		for(int z = 0; z<n; z += block_size){
+   			for(int i = x; i< x + block_size ; i++){
+   				for(int j = y; j< y + block_size; j++){
+   					for(int k = z; k< z + block_size; k++){
+   						C[i + j*n] += A[i + k*n] * B[k + j*n];
+   					}
+   				}
+   			}
+   		}
+   	}
+   }
 }
